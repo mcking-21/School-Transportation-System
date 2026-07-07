@@ -1,22 +1,7 @@
-import './App.css'
+import Login from './pages/Login_page/Login'
 
 function App() {
-  return (
-    <>
-    <div>
-      <p>"Hello World"</p>
-    </div>
-    <Text />
-    </>
-  )
-}
-
-function Text(){
-  return(
-    <div>
-      <p>"Hello World"</p>
-    </div>
-  )
+  return <Login />
 }
 
 export default App
