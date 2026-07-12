@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Register.css';
+import './Registration.css';
 
 /* ─── SVG Icons ─────────────────────────────────────────── */
 const ShieldIcon = ({ size = 18 }) => (
