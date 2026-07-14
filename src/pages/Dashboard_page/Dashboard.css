@@ -9,19 +9,19 @@
 }
 
 .dashboard-app {
-  --color-bg: #f6f6fb;
+  --color-bg: #fbf6f6;
   --color-surface: #ffffff;
-  --color-border: #ececf3;
-  --color-text: #17171f;
-  --color-text-muted: #8a8aa0;
-  --color-text-faint: #b4b4c6;
-  --color-primary: #6c5ce7;
-  --color-primary-soft: #f1effe;
+  --color-border: #f3ecec;
+  --color-text: #1f1717;
+  --color-text-muted: #a08a8a;
+  --color-text-faint: #c6b4b4;
+  --color-primary: #741212;
+  --color-primary-soft: #feefef;
   --color-success: #1faa73;
   --color-success-soft: #e3f9ee;
   --color-warning: #dd7a3b;
   --color-warning-soft: #fdeee0;
-  --color-info: #5b6bea;
+  --color-info: #af0b0b;
   --color-info-soft: #e9ecfd;
   --radius-md: 10px;
   --radius-lg: 14px;

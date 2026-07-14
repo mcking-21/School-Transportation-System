@@ -105,20 +105,14 @@ export default function Register() {
       <aside className="reg-left">
         <div className="reg-left__body">
 
-          {/* Logo */}
-          <div className="reg-logo">
-            <span className="reg-logo__icon"><ShieldIcon size={20} /></span>
-            <span className="reg-logo__text">UM Portal</span>
-          </div>
-
           {/* Hero copy */}
           <h1 className="reg-hero">
             Begin your journey<br />
             with <em>University Excellence.</em>
           </h1>
           <p className="reg-hero__sub">
-            Access the most comprehensive platform for campus logistics
-            and transportation services.
+            Access the most comprehensive platform for campus 
+            transportation services.
           </p>
 
           {/* Features */}
@@ -162,11 +156,9 @@ export default function Register() {
           <hr className="reg-divider" />
           <div className="reg-testimonial">
             <div className="reg-avatar" aria-hidden="true">
-              JD
-              <span className="reg-avatar__dot" />
             </div>
             <div>
-              <p className="reg-testimonial__name">Join 15,000+ UM members</p>
+              <p className="reg-testimonial__name">Join us now!</p>
               <p className="reg-testimonial__quote">
                 "The fastest way to navigate campus services."
               </p>

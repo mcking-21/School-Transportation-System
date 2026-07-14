@@ -4,15 +4,15 @@
 
 /* ── Design tokens ── */
 :root {
-  --primary:        #be7777;   /* main purple */
-  --primary-dark:   #6a65aa;   /* hover / active */
-  --primary-light:  #f2f1f9;   /* left panel bg */
-  --stat-purple:    #8686cc;   /* stat numbers */
+  --primary:        #7b0000;   /* main */
+  --primary-dark:   #aa6565;   /* hover / active */
+  --primary-light:  #f9f1f1;   /* left panel bg */
+  --stat-purple:    #4d1a1a;   /* stat numbers */
   --white:          #ffffff;
-  --text-dark:      #1c1c2e;   /* headings */
-  --text-body:      #5a5a72;   /* body / labels */
-  --text-muted:     #9999b3;   /* placeholder / tiny text */
-  --border:         #e2e2f0;   /* input / card borders */
+  --text-dark:      #2e1c1c;   /* headings */
+  --text-body:      #725a5a;   /* body / labels */
+  --text-muted:     #b39999;   /* placeholder / tiny text */
+  --border:         #f0e2e2;   /* input / card borders */
   --radius-sm:      6px;
   --radius-md:      10px;
   --radius-lg:      14px;
@@ -163,6 +163,11 @@ a {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+.seal-img {
+  width: 200px;
+  height: auto;
+}
+
 
 
 /* ============================================================

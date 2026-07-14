@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Login.css';
+import UMLogo from '../../assets/UM_Logo.png';
 
 const BusIcon = () => (
   <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -70,8 +71,7 @@ const Login = () => {
           </h1>
 
           <p className="login-left__subtext">
-            Real-time tracking for a safer, more efficient commute.
-            Join the network of 2,000+ daily riders and operators.
+            Real-time tracking for a safer, more efficient ride.
           </p>
 
           <div className="login-stats">
@@ -87,13 +87,14 @@ const Login = () => {
         </div>
 
         <footer className="login-left__footer">
-          <p>
-            RouteConnect uses industry-standard encryption to protect your data.
-            Your location is only shared when actively using the tracker.
-          </p>
-          <p className="login-left__trust">
-            Trusted by the University Administration
-          </p>
+          <div className="logo-container">
+            <div className="top-row">
+              <img src={UMLogo} alt="University of Mindanao Seal" className="seal-img" />
+            </div>
+            <div className="bottom-row">
+              <p className="full-name">Trusted by the University of Mindanao</p>
+            </div>
+          </div>
         </footer>
       </aside>
 

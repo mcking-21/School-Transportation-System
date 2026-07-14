@@ -6,7 +6,7 @@ import RegisterVehicle from './pages/RegisterVehicle_page/RegisterVehicle'
 import Registration from './pages/Registration_page/Registration'
 
 function App() {
-  return <Registration />
+  return <Dashboard />
 }
 
 export default App
